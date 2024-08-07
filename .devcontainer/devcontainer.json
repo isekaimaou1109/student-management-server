@@ -1,0 +1,15 @@
+{
+  "name": "Server",
+  "dockerComposeFile": ["../../docker-compose.yml"],
+  "service": "server",
+  "workspaceFolder": "/home/${CURRENT_USER}/server",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+			"settings": {
+        "remote.downloadExtensionsLocally": true,
+        "editor.tabSize": 2
+      }
+		}
+  }
+}
